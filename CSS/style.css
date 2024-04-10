@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}   /*main color discord #255EE9*/
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+button{   
+    border: transparent;
+    border-radius:2rem;
+    padding: .5rem 1rem;
+    background-color: white;
+    text-align: center;
+}
+.h-section{
+    background-image: url(../img/jumbo.png);
+    background-size: cover;
+    background-position: center;
+    min-height: auto;
+}
+footer > div{
+    color: white;
+    background-color: #23272A;
+}
+header, main, footer, main > section, nav > ul, div div, main:last-child, nav, .h-section, article{
+    display: flex;
+}
+main, header, footer, section:last-child, article{
+    flex-direction: column;
+}
+ul{
+    list-style-type: none;
+}
+.log-butt{
+    padding: 1rem 6rem 1rem;
+    justify-content: space-between;
+}
+nav, .h-section{
+    align-items: center;
+}
+.search > li {
+    padding: 0 1rem;
+}
+[alt="Logo"]{
+    width: 6rem;
+}
+h1, h2{
+    font-size: 2.5rem;
+}
+.h-section{
+    justify-content: center;
+    padding: 6rem 0 5.7rem;
+}
+section.h-section > p{
+    padding-bottom:1rem;
+}
+p{
+    max-width: 570px ;
+    text-align: center;
+}
+h1{
+    padding-bottom:1.5rem;
+}
+div.mid-butt > button{
+    margin: 0 .5rem;
+}
+.b-black{
+    background-color: #23272A;
+}
+.white{
+    color: white;
+}
+.arrow::before{
+    content: "\2193";
+}
+article{
+    /*justify-content: center;*/
+    max-width: 20.5rem;
+    padding: 1.5rem 1rem;
+}
+article > p{
+    text-align: left;
+}
+img{
+    max-width: 600px;
+}
+main > section{
+    padding: 5rem;
+}
+h2{
+    padding-bottom: 2rem;
+}
+.f-main{
+    align-items: center;
+}
+.center{
+    text-align: center;
+}
+section.f-main > article {
+    max-width: none;
+    align-items: center;
+}
+#big{
+    max-width: none;
+}
+#stella{
+    background-image: url(../img/stars.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    font-size: 1.75rem;
+    padding: 2rem;
+}
+header{
+    background-color: #255EE9;
+    color: white;
+}
+.blue, footer{
+    background-color: #7289DA;
+    color: white;
+}
+#hr{
+    margin-top: 2px;
+}
